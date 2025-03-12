@@ -1,4 +1,4 @@
-const validCodes = ["Yallareops!", , "", "", "", "", "", "", "", "", ""];
+const validCodes = ["allops", , "", "", "", "", "", "", "", "", ""];
 
 if (window.location.pathname.endsWith("blocked.html") && localStorage.getItem("accessGranted") !== "true") {
   showAuthDiv();
